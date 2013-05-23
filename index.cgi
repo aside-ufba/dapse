@@ -1,7 +1,8 @@
 #!/bin/bash
 Default=index
 Src='https://raw.github.com/timm/dapse/master'
-#wget -q -O - $Src/index.cgi > tmp1; chmod 755 tmp1;  mv tmp1 index.cgi
+
+wget -q -O - $Src/index.cgi > tmp1; chmod 755 tmp1;  mv tmp1 index.cgi
 wget -q -O - $Src/style.css > style.css
 
 echo "Content-type: text/html"
