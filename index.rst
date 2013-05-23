@@ -65,6 +65,7 @@ Section Title
 -------------
 
 |my custom text|
+|dapseHeader|
 
 That's it, the text just above this line.
 
