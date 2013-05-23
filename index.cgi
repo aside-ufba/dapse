@@ -1,5 +1,5 @@
 #!/bin/bash
-Default=test
+Default=test.md
 Src='https://raw.github.com/timm/dapse/master'
 
 echo "Content-type: text/html"
