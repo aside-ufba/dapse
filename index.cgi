@@ -6,10 +6,12 @@ echo "Content-type: text/html"
 echo ""
 
 Q=${QUERY_STRING:=$Default}
-Q=$(echo $Q | sed 's/[^0-9a-zA-Z]//g')
+Q=$(echo $Q | sed 's/[^\.0-9a-zA-Z]//g')
 
 bash techmania/header.html $Q
 
 wget -q -O - $Src/${Q} | markdown_py
 
 cat techmania/footer.html
+
+echo wget -q -O - $Src/${Q} 
