@@ -1,7 +1,8 @@
 #!/bin/bash
+Style=techmania
 Src='https://raw.github.com/timm/dapse/master'
-Files="update.cgi index.cgi _header.html _footer.html _style.css _parts.rst"
 
+Files="update.cgi index.cgi header.html footer.html" 
 for i in $Files; do
 	wget -q -O - $Src/$i > $i
 done
