@@ -56,13 +56,15 @@
 
 .. contents:: Table of Contents
 .. section-numbering::
-
+.. include:: parts.rst
 
 Structural Elements
 ===================
 
 Section Title
 -------------
+
+|my custom text|
 
 That's it, the text just above this line.
 
