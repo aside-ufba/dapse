@@ -1,6 +1,3 @@
-echo 1
 git add *
-echo 2
-git commit -m "sdas"
-echo 3
+git commit -sa
 git push origin master
