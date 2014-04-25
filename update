@@ -1,1 +1,1 @@
-git add * && git commit -sa && git push origin master
+git commit -sa && git push origin master
