@@ -1,1 +1,6 @@
-git add *; git commit -m "sdas";  git push origin master
+echo 1
+git add *
+echo 2
+git commit -m "sdas"
+echo 3
+git push origin master
