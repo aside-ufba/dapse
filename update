@@ -3,4 +3,4 @@ git add *
 echo 2
 git commit -m "sdas"
 echo 3
-git -u timm push origin master
+git push origin master -u timm
